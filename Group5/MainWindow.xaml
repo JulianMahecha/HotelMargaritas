@@ -64,7 +64,7 @@
                 <SolidColorBrush Color="White"/>
             </Button.Foreground>
         </Button>
-        <Button x:Name="btnHotelesMargaritas" Content="Hoteles Las Margaritas" HorizontalAlignment="Left" Margin="418.087,327.218,0,0" VerticalAlignment="Top" Width="246.849" Height="92.229" FontSize="22" Click="btnHotelesMargaritas_Click">
+        <Button x:Name="btnHotelesMargaritas" Content="Detalle Habitaciones" HorizontalAlignment="Left" Margin="418.087,327.218,0,0" VerticalAlignment="Top" Width="246.849" Height="92.229" FontSize="22" Click="btnHotelesMargaritas_Click">
             <Button.BorderBrush>
                 <SolidColorBrush Color="Black" Opacity="0.5"/>
             </Button.BorderBrush>

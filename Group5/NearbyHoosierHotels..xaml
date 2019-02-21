@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Group5"
         mc:Ignorable="d"
-        Title="Nuestras Sedes" Height="279.6" Width="858.4">
+        Title="Nuestras Sedes" Height="340" Width="1000">
     <Grid Margin="0,0,0,0.2" Background="#FF990000">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="93*"/>
             <ColumnDefinition Width="757*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="lblTitle" Content="Nuestras Sedes" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Background="{x:Null}" FontWeight="Bold" FontSize="36" Foreground="White" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblInstructions" Content="Ingresa la ciudad y presiona &quot;Buscar&quot; &#xD;&#xA;para encontrar nuestras sedes!" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="59" Width="328" FontSize="18" Foreground="White" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblZipCode" Content="Ciudad" HorizontalAlignment="Left" Margin="13,131,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White"/>
+        <Label x:Name="lblTitle" Content="Nuestras Habitaciones" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Background="{x:Null}" FontWeight="Bold" FontSize="36" Foreground="White" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblInstructions" Content="Conoce los detalles de nuestros cuartos." HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="59" Width="328" FontSize="18" Foreground="White" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblZipCode" Content="Tipo" HorizontalAlignment="Left" Margin="13,131,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White"/>
         <Button x:Name="btnSearch" Content="Buscar" HorizontalAlignment="Left" Margin="13,187,0,0" VerticalAlignment="Top" Width="130" Height="40" BorderBrush="Black" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14" Click="btnSearch_Click" Grid.ColumnSpan="2"/>
         <Button x:Name="btnClear" Content="Limpiar" HorizontalAlignment="Left" Margin="71.053,187,0,0" VerticalAlignment="Top" Width="130" Height="40" BorderBrush="Black" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14" Click="btnClear_Click" Grid.Column="1"/>
-        <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="151" Margin="258.053,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" FontFamily="Courier New" Background="White" Foreground="#FF060000" IsTabStop="False" Grid.Column="1"/>
+        <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="220" Margin="258.053,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="600" FontFamily="Courier New" Background="White" Foreground="#FF060000" IsTabStop="False" Grid.Column="1"/>
         <Button x:Name="btnReturnToMainMenu" Content="Regresar al Menu" HorizontalAlignment="Left" Margin="582.053,10,0,0" VerticalAlignment="Top" Width="160" Height="40" BorderBrush="Black" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14" Click="btnReturnToMainMenu_Click" Grid.Column="1"/>
         <ComboBox x:Name="cboZipCode" HorizontalAlignment="Left" Margin="19.053,131,0,0" VerticalAlignment="Top" Width="182" Height="34" BorderBrush="White" SelectedIndex="0" FontSize="18" Grid.Column="1">
             <ComboBox.Background>
@@ -25,10 +25,12 @@
                     <GradientStop Color="White" Offset="1"/>
                 </LinearGradientBrush>
             </ComboBox.Background>
-            <ComboBoxItem Content="Selecciona Ciudad"/>
-            <ComboBoxItem Content="Bogota"/>
-            <ComboBoxItem Content="Medellin"/>
-            <ComboBoxItem Content="Cartagena"/>
+            <ComboBoxItem Content="One King"/>
+            <ComboBoxItem Content="One King Deluxe"/>
+            <ComboBoxItem Content="Two Queens"/>
+            <ComboBoxItem Content="Two 'Queens Deluxe"/>
+            <ComboBoxItem Content="One King suite"/>
+            <ComboBoxItem Content="One King Presidential"/>
         </ComboBox>
 
     </Grid>
